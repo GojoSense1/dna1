@@ -1,0 +1,171 @@
+/* Genel Stiller */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Başlık Stilleri */
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  /* Menü Stilleri */
+  .navbar {
+    background-color: #007bff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+    color: #fff;
+  }
+  
+  .navbar a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Ana Sayfa Stilleri */
+  #home {
+    background-image: linear-gradient(to right, #007bff, #17a2b8);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #home p {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hakkımızda Sayfası Stilleri */
+  #about {
+    padding: 50px 0;
+  }
+  
+  #about h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    margin-bottom: 20px;
+  }
+  
+  /* İletişim Sayfası Stilleri */
+  #contact {
+    padding: 50px 0;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Kaynakça Sayfası Stilleri */
+  #preferences {
+    padding: 50px 0;
+  }
+  
+  .preferences-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .preferences-list li {
+    margin-bottom: 10px;
+  }
+  
+  .preferences-list li:before {
+    content: '\f054';
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 5px;
+    color: #007bff;
+  }
+  
+  /* Footer Stilleri */
+  .footer {
+    background-color: #007bff;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
